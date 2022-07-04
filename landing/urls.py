@@ -14,6 +14,7 @@ urlpatterns = [
     path('team/', views.team, name='team'),
 ]
 
+handler404 = 'landing.views.handler404'
 
 
 
