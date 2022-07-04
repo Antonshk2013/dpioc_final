@@ -70,13 +70,7 @@ def team(request):
                   template_name='landing/team.html',
                   context=context)
 
-def handler404(request, *args, **argv):
-    print(123)
-    response = render(request=request,
-                      template_name='404.html',
-                      status=404)
 
-    return response
 
 
 
