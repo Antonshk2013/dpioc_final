@@ -6,7 +6,7 @@
         </h2>
         <div class="teammeate">
             {% for member in team %}
-
+            {% if member.stage == 1 %}
                 <div class="teammeate__wrapper">
                     <div class="teammeate__content">
                         <div class="teammeate__photo">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-
+                {% endif %}
             {% endfor %}
         </div>
         <div class="team-catalog__wrapper">
