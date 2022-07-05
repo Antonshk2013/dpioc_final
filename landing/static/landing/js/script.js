@@ -64,7 +64,6 @@
   $(".partners-button-prev").on("click", (e) => {
     partnersSlider.slidePrev();
   });
-  console.log(partnersSlider)
 
   const teamSlider = new Swiper(".team__slider", {
     spaceBetween: 0,
@@ -174,3 +173,50 @@ $("[scroll-href]").click(function (e) {
     });
   });
 })();
+
+
+// gallery
+
+$('.popup-gallery').magnificPopup({
+  delegate: '.image-popup',
+  type: 'image',
+  tLoading: 'Loading image #%curr%...',
+  mainClass: 'mfp-img-mobile',
+  gallery: {
+    enabled: true,
+    navigateByImgClick: true,
+    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+  },
+  image: {
+    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+    titleSrc: function (item) {
+      return `
+      <div class="team-catalog__item-info">
+    ${item.el.attr('status') ?
+          `<div>
+      <i class="fa-solid fa-user"></i>
+    ${item.el.attr('status')}
+      </div>` : ''}
+    ${item.el.attr('location') ? `<div>
+        <i class="fa-solid fa-location-dot"></i>
+    ${item.el.attr('location')}
+      </div>` : ''}    
+    ${item.el.attr('social') ? `<div>
+    <i class="fa-solid fa-share-nodes"></i>
+    ${item.el.attr('social')}
+    </div>` : ''}    
+    ${item.el.attr('phone') ? `<div>
+    <i class="fa-solid fa-phone"></i>
+    ${item.el.attr('phone')}
+  </div>` : ''}    ${item.el.attr('email') ? `<a href="mailto:${item.el.attr('email')}">
+  <i class="fa-solid fa-envelope"></i>
+  ${item.el.attr('email')}
+</a>` : ''}
+       
+      </div>
+      `;
+    }
+  }
+});
+
+// gallery end

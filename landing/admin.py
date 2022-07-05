@@ -1,6 +1,10 @@
+from django import forms
 from django.contrib import admin
 from modeltranslation.admin import TranslationAdmin
 from .models import *
+from ckeditor_uploader.widgets import CKEditorUploadingWidget
+from django_summernote.admin import SummernoteModelAdmin
+
 
 
 @admin.register(Questions)
@@ -14,8 +18,8 @@ class AdminPartnersImage(admin.ModelAdmin):
 
 
 @admin.register(News)
-class AdminNew(TranslationAdmin):
-    pass
+class AdminNew(TranslationAdmin, SummernoteModelAdmin):
+    summernote_fields =('newstext',)
 
 
 @admin.register(Statics)
