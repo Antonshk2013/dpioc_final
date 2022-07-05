@@ -1230,12 +1230,16 @@ textarea {
 .team-catalog__photo {
   max-width: 247px;
   margin: 0 auto 20px;
+  height: 300px;
 }
 
 .team-catalog__photo img {
-  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .team-catalog__status {
@@ -1384,6 +1388,11 @@ textarea {
   margin-bottom: 5px;
 }
 
+img.mfp-img {
+  min-width: 300px;
+  width: 100%;
+}
+
 .mfp-figure:after {
   background: none;
   box-shadow: none;
@@ -1401,11 +1410,6 @@ textarea {
   margin-top: 0;
   max-width: 290px;
   width: 100%;
-}
-
-img.mfp-img{
-min-width: 300px;
-width:100%;
 }
 
 .e-service {
@@ -2252,4 +2256,3 @@ width:100%;
     margin-right: 0;
   }
 }
-
