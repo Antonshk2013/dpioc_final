@@ -1510,9 +1510,10 @@ img.mfp-img {
 }
 
 .single-news__photo {
-  border-radius: 15px;
-  overflow: hidden;
-  margin-bottom: 40px;
+    max-width: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+     margin: 0 auto 40px;
 }
 
 .single-news__photo img {

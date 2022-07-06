@@ -1,8 +1,9 @@
-{% load static i18n %}
+{% load static %}
+{% load i18n %}
 <section class="news-catalog">
     <div class="container">
         <h2 class="news-catalog__title section-title">
-            <span>новини</span>
+            <span>{% trans 'новини' %}</span>
         </h2>
         <div class="single-news">
             <div class="single-news__date">{{ single_news.get_clean_date }}</div>

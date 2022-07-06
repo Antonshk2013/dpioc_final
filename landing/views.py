@@ -55,7 +55,8 @@ def news(request):
 
 def single_news(request, pk):
     single_news = News.objects.get(id__exact=pk)
-    context = {'single_news': single_news}
+    context = {'title': single_news.title,
+               'single_news': single_news}
     return render(request=request,
                   template_name='landing/single-news.html',
                   context=context)
