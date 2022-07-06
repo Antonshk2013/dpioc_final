@@ -11,7 +11,7 @@
                     <div class="teammeate__wrapper">
                         <div class="teammeate__content">
                             <a href="{{ member.image.url }}" status="{{ member.position }}" location="{% trans 'Киев' %}" email="{{ member.mail }}" class="teammeate__photo image-popup">
-                                <img src="{% static 'landing/img/team/team_1.jpg' %}" alt="photo"/>
+                                <img src="{{ member.image.url }}" alt="photo"/>
                             </a>
                             <div class="teammeate__descr">
                                 <div class="teammeate__status">{{ member.position }}
