@@ -8,26 +8,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 22:56+0300\n"
-"PO-Revision-Date: 2022-07-04 07:52-0500\n"
+"POT-Creation-Date: 2022-07-06 21:41+0300\n"
+"PO-Revision-Date: 2022-07-06 12:48-0500\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: dpioc/settings.py:108
+#: dpioc/settings.py:110
 msgid "EN"
 msgstr ""
 
-#: dpioc/settings.py:109
+#: dpioc/settings.py:111
 msgid "UA"
 msgstr ""
 
-#: landing/templates/landing/base.html:13
+#: landing/templates/landing/base.html:15
 #: landing/templates/landing/include/hero_block.html:83
 msgid "ДП \"ІОЦ МІНСОЦПОЛІТИКИ УКРАЇНИ\""
 msgstr "ДП \"ІОЦ МІНСОЦПОЛІТИКИ УКРАЇНИ\""
@@ -38,12 +41,11 @@ msgstr "ДП \"ІОЦ МІНСОЦПОЛІТИКИ УКРАЇНИ\""
 #: landing/templates/landing/include/header_tall.html:67
 #: landing/templates/landing/include/hero_block.html:35
 #: landing/templates/landing/include/hero_block.html:70
-#: landing/templates/landing/include/hero_block.html:88 landing/views.py:32
+#: landing/templates/landing/include/hero_block.html:88 landing/views.py:34
 msgid "Про нас"
 msgstr ""
 
 #: landing/templates/landing/include/about_block.html:13
-#: landing/templates/landing/include/about_block.html:22
 msgid ""
 "Державне підприємство «Інформаційно обчислювальний центр Міністерства "
 "соціальной політики України»"
@@ -51,23 +53,41 @@ msgstr ""
 "Державне підприємство «Інформаційно-обчислювальний центр Міністерства "
 "соціальної політики України»"
 
-#: landing/templates/landing/include/about_block.html:23
+#: landing/templates/landing/include/about_block.html:22
+#, fuzzy
+#| msgid ""
+#| "Державне підприємство «Інформаційно обчислювальний центр Міністерства "
+#| "соціальной політики України»"
 msgid ""
-"перебуває у державній владі та у сфері управління Міністерства соціальної "
-"політики України."
+"Державне підприємство «Інформаційно-обчислювальний центр Міністерства "
+"соціальної політики України»"
 msgstr ""
+"Державне підприємство «Інформаційно-обчислювальний центр Міністерства "
+"соціальної політики України»"
+
+#: landing/templates/landing/include/about_block.html:23
+#, fuzzy
+#| msgid ""
+#| "Державне підприємство «Інформаційно обчислювальний центр Міністерства "
+#| "соціальной політики України»"
+msgid ""
+"знаходиться у державній власності та належить до сфери управління "
+"Міністерства соціальної політики України."
+msgstr ""
+"Державне підприємство «Інформаційно-обчислювальний центр Міністерства "
+"соціальної політики України»"
 
 #: landing/templates/landing/include/about_block.html:26
 msgid ""
-"Інформаційно-обчіслювальний центр – це розробка програмного забезпечення та "
-"інформаційних технологій, які забезпечують безпеку органів соціального "
-"забезпечення населення."
+"Інформаційно-обчислювальний центр – це розробка програмного забезпечення та "
+"інформаційних технологій, що забезпечують діяльність органів соціального "
+"захисту населення."
 msgstr ""
 
 #: landing/templates/landing/include/about_block.html:29
 msgid ""
-"Інформаційно-обчислювальний центр – це отримання українцями всіх видів "
-"соціальних доп, пільг, субсидій."
+"Інформаційно-обчислювальний центр – це отримання українцями усіх видів "
+"соціальних допомог, пільг, субсидій."
 msgstr ""
 
 #: landing/templates/landing/include/about_docs_block.html:6
@@ -80,7 +100,7 @@ msgstr ""
 #: landing/templates/landing/include/header_tall.html:37
 #: landing/templates/landing/include/header_tall.html:70
 #: landing/templates/landing/include/hero_block.html:38
-#: landing/templates/landing/include/hero_block.html:73 landing/views.py:63
+#: landing/templates/landing/include/hero_block.html:73 landing/views.py:66
 msgid "Наша команда"
 msgstr ""
 
@@ -102,25 +122,25 @@ msgid ""
 "загарбником!"
 msgstr ""
 
-#: landing/templates/landing/include/donate_block.html:23
+#: landing/templates/landing/include/donate_block.html:22
 msgid "Реквизиты"
 msgstr "Реквізити"
 
-#: landing/templates/landing/include/donate_block.html:25
+#: landing/templates/landing/include/donate_block.html:23
 msgid "Допомогти онлайн"
 msgstr ""
 
 #: landing/templates/landing/include/donate_eservice_block.html:11
 #: landing/templates/landing/include/e_services_block.html:6
-#: landing/views.py:42
+#: landing/views.py:44
 msgid "є-сервіси"
 msgstr ""
 
 #: landing/templates/landing/include/donate_eservice_block.html:15
 msgid ""
-"Електро́нний се́рвіс, е-сервіс (англ. e-service) — всі види послуг і "
-"сервісу, які надаються за допомогою електронних засобів (як приклад, за "
-"допомогою Інтернету)."
+"Електро́нний се́рвіс, е-сервіс (англ. e-service) — всі види послуг і сервісу, "
+"які надаються за допомогою електронних засобів (як приклад, за допомогою "
+"Інтернету)."
 msgstr ""
 
 #: landing/templates/landing/include/donate_eservice_block.html:19
@@ -205,10 +225,6 @@ msgid "Донейшн"
 msgstr ""
 
 #: landing/templates/landing/include/footer.html:29
-#: landing/templates/landing/include/header_tall.html:31
-#: landing/templates/landing/include/header_tall.html:64
-#: landing/templates/landing/include/hero_block.html:32
-#: landing/templates/landing/include/hero_block.html:67
 msgid "Питання- Відповідь"
 msgstr ""
 
@@ -239,6 +255,7 @@ msgstr ""
 
 #: landing/templates/landing/include/full_news_block.html:6
 #: landing/templates/landing/include/news_block.html:7
+#: landing/templates/landing/include/single_news_block.html:6
 msgid "новини"
 msgstr ""
 
@@ -247,6 +264,13 @@ msgstr ""
 #: landing/templates/landing/include/hero_block.html:29
 #: landing/templates/landing/include/partners_block.html:6
 msgid "Наші партнери"
+msgstr ""
+
+#: landing/templates/landing/include/header_tall.html:31
+#: landing/templates/landing/include/header_tall.html:64
+#: landing/templates/landing/include/hero_block.html:32
+#: landing/templates/landing/include/hero_block.html:67
+msgid "Питання - Відповідь"
 msgstr ""
 
 #: landing/templates/landing/include/header_tall.html:47
@@ -278,8 +302,8 @@ msgstr ""
 
 #: landing/templates/landing/include/popups_block.html:17
 msgid ""
-"Зараз Україна переживає найстрашніше випробування за всю свою незалежність "
-"–повномасштабну війну з боку Російської Федерації, яка призвела до загибелі "
+"Зараз Україна переживає найстрашніше випробування за всю свою незалежність –"
+"повномасштабну війну з боку Російської Федерації, яка призвела до загибелі "
 "людей,поранень і масового переміщення цивільного населення по території "
 "країни та в сусіднікраїни. Мільйони українців залишились без житла, грошей, "
 "одягу, їжі та інших елементарнихречей."
@@ -363,10 +387,10 @@ msgid ""
 "господарських договорів (зокрема, але не впроваджених із Міністерством "
 "соціальної політики України, Пенсійним фондом України, як замовниками в "
 "рамках таких договорів), Підприємство, зокрема, розробляє програмне "
-"забезпечення, яке використовує замовниками для виконання/реалізації завдань,"
-" покладених на них законодавством України, що вимагає, як правило, "
-"збір/обробку певної інформації/особистих даних (за допомогою такого "
-"програмного забезпечення)."
+"забезпечення, яке використовує замовниками для виконання/реалізації завдань, "
+"покладених на них законодавством України, що вимагає, як правило, збір/"
+"обробку певної інформації/особистих даних (за допомогою такого програмного "
+"забезпечення)."
 msgstr ""
 
 #: landing/templates/landing/include/popups_block.html:227
@@ -390,8 +414,8 @@ msgstr ""
 
 #: landing/templates/landing/include/popups_block.html:237
 msgid ""
-"Таким чином, конфіденційною є про фізичну особу, а також доступна інформація"
-" до обмеженої фізичної чи юридичної особи, крім суб’єктів владних "
+"Таким чином, конфіденційною є про фізичну особу, а також доступна інформація "
+"до обмеженої фізичної чи юридичної особи, крім суб’єктів владних "
 "повноважень. Конфіденційна інформація може розширюватися за бажанням "
 "(згодою) відповідної особи у визначеному нею порядку відповідно до "
 "передбачених умовами, а також в інших випадках, визначених законом."
@@ -421,11 +445,13 @@ msgid ""
 "Розроблення, впровадження и супроводження прикладного программного "
 "забезпечення соціального спрямування"
 msgstr ""
+"Розроблення, впровадження та супроводження прикладного програмного "
+"забезпечення соціального спрямування "
 
 #: landing/templates/landing/include/services_block.html:20
 #: landing/templates/landing/include/services_works_block.html:20
 msgid "Тестування и Ведення в эксплуатации програмного обеспечения"
-msgstr ""
+msgstr "Тестування та Ведення в експлуатацію програмного забезпечення"
 
 #: landing/templates/landing/include/services_block.html:26
 #: landing/templates/landing/include/services_works_block.html:26
@@ -433,12 +459,13 @@ msgid ""
 "Надання доступа к програмному заобеспечению органов соціального захисту "
 "населення"
 msgstr ""
+"Надання доступу до програмного забезпечення органам соціального захисту "
+"населення"
 
 #: landing/templates/landing/include/services_block.html:32
 #: landing/templates/landing/include/services_works_block.html:32
-msgid ""
-"Обработка информации и начисление соціальних дотаций, пособий, субсидий"
-msgstr ""
+msgid "Обработка информации и начисление соціальних дотаций, пособий, субсидий"
+msgstr "Обробка інформації та нарахування соціальних допомог, пільг, субсидій."
 
 #: landing/templates/landing/include/services_block.html:38
 #: landing/templates/landing/include/services_works_block.html:38
@@ -446,28 +473,31 @@ msgid ""
 "Доопрацювання и вдосконалення програмного замораживания відповідно до "
 "поточных змін чинного законодавства"
 msgstr ""
+"Доопрацювання та вдосконалення програмного забезпечення відповідно до "
+"поточних змін чинного законодавства"
 
 #: landing/templates/landing/include/services_block.html:44
 #: landing/templates/landing/include/services_works_block.html:44
 msgid "Супроводження и ведення державных реєстрів, інформаційних систем"
-msgstr ""
+msgstr "Супроводження та ведення державних реєстрів, інформаційних систем."
 
 #: landing/templates/landing/include/services_works_block.html:6
 msgid "Як це працює?"
 msgstr ""
 
 #: landing/templates/landing/include/team_catalog_block.html:5
+#: landing/templates/landing/include/team_catalog_block_copy.html:6
 msgid "Керівництво"
 msgstr ""
 
-#: landing/templates/landing/include/team_catalog_block.html:29
-msgid "Київ"
+#: landing/templates/landing/include/team_catalog_block_copy.html:13
+msgid "Киев"
 msgstr ""
 
-#: landing/views.py:17
+#: landing/views.py:19
 msgid "Головна"
 msgstr "Головна"
 
-#: landing/views.py:48
+#: landing/views.py:50
 msgid "Новини"
 msgstr ""

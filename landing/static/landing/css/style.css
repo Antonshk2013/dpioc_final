@@ -502,8 +502,12 @@ textarea {
   margin-bottom: 80px;
 }
 
-.swiper-wrapper {
-  align-items: center;
+.services .swiper-wrapper {
+  align-items: stretch;
+}
+
+.services .service-item.swiper-slide {
+  height: auto;
 }
 
 .services-slider {
@@ -1634,7 +1638,7 @@ img.mfp-img {
   box-shadow: 0px 5px 20px rgba(72, 0, 1, 0.2);
   border-radius: 12px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .popup.show {
@@ -1830,6 +1834,10 @@ img.mfp-img {
 
   .team__wrapper {
     padding: 0 50px;
+  }
+
+  .team-item {
+    height: 140px;
   }
 
   .teammeate__wrapper {
@@ -2045,6 +2053,10 @@ img.mfp-img {
     padding: 0;
   }
 
+  .team-item {
+    height: 200px;
+  }
+
   .team-button-prev {
     display: none;
   }
@@ -2232,6 +2244,12 @@ img.mfp-img {
   .footer__bottom {
     align-items: flex-start;
     flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 440px) {
+  .team-item {
+    height: auto;
   }
 }
 
