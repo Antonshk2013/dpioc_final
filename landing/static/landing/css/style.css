@@ -1171,14 +1171,16 @@ textarea {
   display: flex;
   align-items: flex-end;
   justify-content: end;
+  height: 180px;
 }
 
 .team-item img {
-  margin-top: auto;
-  margin-bottom: 0;
-  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
 }
 
 .team-button-prev {
@@ -1510,10 +1512,9 @@ img.mfp-img {
 }
 
 .single-news__photo {
-    max-width: 500px;
-    border-radius: 15px;
-    overflow: hidden;
-     margin: 0 auto 40px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .single-news__photo img {
