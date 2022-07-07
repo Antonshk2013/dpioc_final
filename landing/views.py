@@ -63,7 +63,7 @@ def single_news(request, pk):
 
 def team(request):
     team = TeamMember.objects.all()
-    context = {"title": _("Наша команда"),
+    context = {"title": _("Керівництво"),
                "team": team,
                               }
 

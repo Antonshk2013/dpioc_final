@@ -3,7 +3,9 @@
 <section class="news-catalog">
     <div class="container">
         <h2 class="news-catalog__title section-title">
-            <span>{% trans 'новини' %}</span>
+            <a href="{% url 'landing:news' %}">
+                <span>{% trans 'новини' %}</span>
+            </a>
         </h2>
         <div class="single-news">
             <div class="single-news__date">{{ single_news.get_clean_date }}</div>
