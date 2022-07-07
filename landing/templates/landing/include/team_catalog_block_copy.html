@@ -28,7 +28,7 @@
         <div class="team-catalog__wrapper ">
             {% for member in team %}
                 {% if member.stage != 1 %}
-                    <a href="{{ member.image.url }}" status="{{ member.position }}" location="Киев" social="" phone="" email="{{ member.mail }}" class="team-catalog__item image-popup ">
+                    <a href="{{ member.image.url }}" status="{{ member.position }}" location="Киев" email="{{ member.mail }}" class="team-catalog__item image-popup ">
                         <div class="team-catalog__photo">
                             <img src="{{ member.image.url }}" alt="photo"/>
                         </div>
