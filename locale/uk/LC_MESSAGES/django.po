@@ -107,7 +107,7 @@ msgstr ""
 
 #: landing/templates/landing/include/donate_block.html:11
 msgid "донат"
-msgstr ""
+msgstr "благодійність"
 
 #: landing/templates/landing/include/donate_block.html:15
 msgid "Ми просимо підтримки зараз, щоб мати можливість допомагати і надалі."
@@ -219,7 +219,7 @@ msgstr ""
 #: landing/templates/landing/include/hero_block.html:26
 #: landing/templates/landing/include/hero_block.html:61
 msgid "Донейшн"
-msgstr "Донат"
+msgstr "Благодійність"
 
 #: landing/templates/landing/include/footer.html:29
 msgid "Питання- Відповідь"
@@ -295,7 +295,7 @@ msgstr ""
 
 #: landing/templates/landing/include/popups_block.html:14
 msgid "ДОНАТ"
-msgstr ""
+msgstr "БЛАГОДІЙНІСТЬ"
 
 #: landing/templates/landing/include/popups_block.html:17
 msgid ""
