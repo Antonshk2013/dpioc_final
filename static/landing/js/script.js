@@ -192,26 +192,27 @@ $('.popup-gallery').magnificPopup({
     titleSrc: function (item) {
       return `
       <div class="team-catalog__item-info">
-        <div>
-        <i class="fa-solid fa-user"></i>
-          ${item.el.attr('status')}
-        </div>
-        <div>
+    ${item.el.attr('status') ?
+          `<div>
+      <i class="fa-solid fa-user"></i>
+    ${item.el.attr('status')}
+      </div>` : ''}
+    ${item.el.attr('location') ? `<div>
         <i class="fa-solid fa-location-dot"></i>
-          ${item.el.attr('location')}
-        </div>
-        <div>
-        <i class="fa-solid fa-share-nodes"></i>
-          ${item.el.attr('social')}
-        </div>
-        <div>
-        <i class="fa-solid fa-phone"></i>
-          ${item.el.attr('phone')}
-        </div>
-        <div>
-        <i class="fa-solid fa-envelope"></i>
-          ${item.el.attr('email')}
-        </div>
+    ${item.el.attr('location')}
+      </div>` : ''}    
+    ${item.el.attr('social') ? `<div>
+    <i class="fa-solid fa-share-nodes"></i>
+    ${item.el.attr('social')}
+    </div>` : ''}    
+    ${item.el.attr('phone') ? `<div>
+    <i class="fa-solid fa-phone"></i>
+    ${item.el.attr('phone')}
+  </div>` : ''}    ${item.el.attr('email') ? `<a href="mailto:${item.el.attr('email')}">
+  <i class="fa-solid fa-envelope"></i>
+  ${item.el.attr('email')}
+</a>` : ''}
+       
       </div>
       `;
     }
