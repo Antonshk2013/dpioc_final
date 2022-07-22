@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-n6#ji$-2njn*awp=@0$-c8+6-=vq76ap1e^b!q-#a67d^r86ix'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -83,7 +83,7 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
-
+#
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -130,8 +130,8 @@ CKEDITOR_UPLOAD_PATH = 'content/ckeditor/'
 
 STATIC_URL = 'static/'
 # STATIC_DIR = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
